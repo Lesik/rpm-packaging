@@ -1,0 +1,6 @@
+[submodule "submodules/telegram-desktop-patches"]
+	path = submodules/telegram-desktop-patches
+	url = https://git.mel.vin/telegram_desktop/patches
+[submodule "submodules/telegram-desktop-packaging"]
+	path = submodules/telegram-desktop-packaging
+	url = https://github.com/xvitaly/tgbuild

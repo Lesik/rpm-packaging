@@ -11,7 +11,7 @@
 24a25,28
 > Patch2: about.diff
 > Patch3: messageradius_3px.diff
-> Patch4: maxmessagewidth_600.diff
+> Patch4: maxmessagewidth_600px.diff
 > Patch5: emojipanel_1920_1080.diff
 100a105,108
 > patch -p1 -i %{PATCH2}

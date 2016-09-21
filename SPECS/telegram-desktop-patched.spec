@@ -24,7 +24,7 @@ Patch0: fix_build_under_fedora.patch
 Patch1: fix_cmake.patch
 Patch2: about.diff
 Patch3: messageradius_3px.diff
-Patch4: maxmessagewidth_600.diff
+Patch4: maxmessagewidth_600px.diff
 Patch5: emojipanel_1920_1080.diff
 
 Requires: hicolor-icon-theme

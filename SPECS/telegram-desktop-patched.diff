@@ -1,0 +1,20 @@
+4,5c4,5
+< Summary: Telegram is a new era of messaging
+< Name: telegram-desktop
+---
+> Summary: Telegram is a new, dark era of messaging
+> Name: telegram-desktop-patched
+12c12
+< Source0: %{url}/%{_APPNAME}/archive/v%{version}.tar.gz
+---
+> Source0: %{url}/%{_APPNAME}/archive/v%{version}/%{_APPNAME}-%{version}.tar.gz
+24a25,28
+> Patch2: about.diff
+> Patch3: messageradius_3px.diff
+> Patch4: maxmessagewidth_600.diff
+> Patch5: emojipanel_1920_1080.diff
+100a105,108
+> patch -p1 -i %{PATCH2}
+> patch -p1 -i %{PATCH3}
+> patch -p1 -i %{PATCH4}
+> patch -p1 -i %{PATCH5}

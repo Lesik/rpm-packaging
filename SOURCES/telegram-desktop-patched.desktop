@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Telegram Desktop Patched
+Comment=Telegram is a new, dark era of messaging
+Exec=/usr/bin/telegram-desktop-patched -- %u
+Icon=telegram-desktop
+Terminal=false
+StartupWMClass=telegram-desktop
+Type=Application
+Categories=Network;
+MimeType=x-scheme-handler/tg;

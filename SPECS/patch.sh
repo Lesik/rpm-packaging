@@ -19,7 +19,7 @@ Patch5: emojipanel_1920_1080.diff' $PATCHEDSPEC
 
 sed -i '/patch -p1 -i %{PATCH1}/a\
 patch -p1 -i %{PATCH2}\
-patch -p1 -i %{PATCH3}\
+#patch -p1 -i %{PATCH3}\
 patch -p1 -i %{PATCH4}\
 patch -p1 -i %{PATCH5}' $PATCHEDSPEC
 
